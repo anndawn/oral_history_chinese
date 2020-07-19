@@ -1,0 +1,101 @@
+*{margin: 0 auto}
+#ieimg{
+  width: 600px;
+  height: 300px;
+  background-image: url("../img/ie.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none
+}
+.box-white h1{font-size: 20px;line-height: 20px;}
+.nav-items-container{width: 350px}
+.nav-items-container li{width: 150px;height: 150px;
+font-size: 16px;}
+.content-wrapper{margin-top: 80px;}
+.content{max-width: 650px;margin-right: 30px;}
+.choice{
+  width: 30%;
+  height: 50px;
+  background-color: rgba(108, 110, 105, 0.77);
+  display: inline-block;
+  text-align: center;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  line-height: 50px;
+  color:white
+}
+.historyedu{
+  display: none;
+  text-align: left;
+  position: relative;
+}
+.historyedu caption{
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  top:-5px;
+}
+.historyedu table{margin-top: 15px;}
+.historyedu th{
+  text-align: center;
+}
+.historyedu td, .historyedu th{min-width: 90px;
+  border: 1px solid black;
+  min-height: 30px;
+  padding: 5px;
+  border-collapse: collapse;
+}
+.flow{
+  width: 280px;
+  height: 500px;
+  background-image: url("../img/flow.png");
+  background-size: contain;
+}
+.ch4content{
+  text-align: center;
+  display: none;
+}
+.ch7content{display: none;font-size: 18px;}
+.ch4content .topic,.ch4content .grade{text-align: left;}
+.ch4content .topic .law{font-size: 14px;padding: 5px;padding-left: 2px;padding-right: 2px;padding-top: 2px;background-color: rgba(233, 237, 186, 0.84);
+display: inline-block;height: 30px;border-radius: 5px;line-height: 30px;}
+.ch4content .topic p{margin-top:20px;font-size: 14px;margin-bottom: 15px;}
+.ch5content .method{font-size: 14px;padding: 5px;padding-left: 2px;padding-right: 2px;padding-top: 2px;background-color: rgba(233, 237, 186, 0.84);
+display: inline-block;height: 30px;border-radius: 5px;line-height: 30px;}
+.ch5img{width: 600px;background-image: url("../img/school.png");height: 250px;
+background-size: contain;background-repeat: no-repeat;margin-top: 30px;}
+.ch5content{display: none}
+#sp{width: 100%;}
+.story{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 250%;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  z-index: 200;
+}
+/* .row{text-align: center;} */
+/* .ch9content{padding: 10px;} */
+.page, .box-text{font-family: "SimSun";font-style:normal}
+.content-text ul{padding:0;list-style-type:none;}
+.content-text ul li{padding-left: 20px;font-size: 14px;}
+.ch8content ul{padding:0;list-style-type:disc;}
+.ch8content ul li{padding-left: 0px;font-size: 18px;}
+header.boxbig{
+  width: 60%;
+}
+.js-site-title h1.box-text{
+  font-size: 23px;
+  line-height: 40px;
+  border:transparent;
+  text-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
